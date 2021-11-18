@@ -1,3 +1,5 @@
+import React from "react";
+
 export function wndsize() {
     var w = 0;
     var h = 0;
@@ -20,7 +22,6 @@ export function wndsize() {
     return {
       width: w,
       height: h };
-  
   }
   
   // map function
@@ -39,7 +40,6 @@ export function wndsize() {
         y: "",
         w: wndsize().width,
         h: wndsize().height };
-  
     },
     rippleAnim: function (event) {
   
@@ -122,7 +122,6 @@ export function wndsize() {
               ease: Power3.easeOut });
   
             break;}
-  
       }
     },
  });
