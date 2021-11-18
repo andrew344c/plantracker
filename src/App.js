@@ -178,12 +178,6 @@ function wndsize() {
       }
     },
     render: function () {
-      return /*#__PURE__*/(
-        React.createElement("svg", { height: "1", width: "1" }, /*#__PURE__*/
-        React.createElement("circle", { ref: "greenripple", id: "green_ripple", cx: "0", cy: "0", r: "256" }), /*#__PURE__*/
-        React.createElement("circle", { ref: "ripple", id: "white_ripple", cx: "0", cy: "0", r: "256" })));
-  
-  
     } });
   
   
