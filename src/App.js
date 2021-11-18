@@ -24,6 +24,11 @@ class App extends Component {
                             PlanTracker
                         </header>
                         React.createElement(Button, null);
+                        React.createElement("div", { className = "material_button", onClick = this.handleClick }, /*#__PURE__*/
+                        React.createElement("i", { ref = "done_icon", className = "material-icons done" }, "done"), /*#__PURE__*/
+                        React.createElement("div", { ref = "progress", className = "progress" }, this.state.progress), /*#__PURE__*/
+                        React.createElement("i", { ref = "arrow_icon", className = "material-icons" }, "arrow_downward"), /*#__PURE__*/
+                        React.createElement(Ripple, { activity = this.state.action, event = this.state.event, point = this.state.point })));
                     </body>
                     <footer>
                         <br>(C) Jonathan C, Andrew Y, Karankumar M, and Andrew C for Coders SB</br>
@@ -284,13 +289,4 @@ function wndsize() {
         event: "" };
   
     },
-    render: function () {
-      return /*#__PURE__*/(
-        React.createElement("div", { className: "material_button", onClick: this.handleClick }, /*#__PURE__*/
-        React.createElement("i", { ref: "done_icon", className: "material-icons done" }, "done"), /*#__PURE__*/
-        React.createElement("div", { ref: "progress", className: "progress" }, this.state.progress), /*#__PURE__*/
-        React.createElement("i", { ref: "arrow_icon", className: "material-icons" }, "arrow_downward"), /*#__PURE__*/
-        React.createElement(Ripple, { activity: this.state.action, event: this.state.event, point: this.state.point })));
-  
-  
-    } });
+})
