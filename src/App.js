@@ -23,8 +23,8 @@ class App extends Component {
                         <header>
                             PlanTracker
                         </header>
+                        React.createElement(Button, null);
                     </body>
-                    React.createElement(Button, null);
                     <footer>
                         <br>(C) Jonathan C, Andrew Y, Karankumar M, and Andrew C for Coders SB</br>
                         Based on an <a href="https://dribbble.com/shots/2502485-Download-lll" target="_blank">Oleg Frolov</a> creation
