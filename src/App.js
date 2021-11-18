@@ -23,17 +23,19 @@ class App extends Component {
                         <header>
                             PlanTracker
                         </header>
-                        <div className = "material_button">
-                            onClick = { this.handleClick }
-                        </div>
-                        <i ref = "done_icon" className = "material-icons done"/>
-                        <div ref = "progress" className = "progress">
-                            { this.state.progress }
-                        </div>
-                        <i ref = "arrow_icon" className = "material-icons"/>
-                        <Ripple> 
-                            { activity = this.state.action, Event = this.state.event, point = this.state.point }
-                        </Ripple>
+                        <Button>
+                            <div className="material_button">
+                                onClick = {this.handleClick}
+                            </div>
+                            <i ref="done_icon" className="material-icons done" />
+                            <div ref="progress" className="progress">
+                                {this.state.progress}
+                            </div>
+                            <i ref="arrow_icon" className="material-icons" />
+                            <Ripple>
+                                {activity = this.state.action, Event = this.state.event, point = this.state.point}
+                            </Ripple>
+                        </Button>
                     </body>
                     <footer>
                         <br>(C) Jonathan C, Andrew Y, Karankumar M, and Andrew C for Coders SB</br>
